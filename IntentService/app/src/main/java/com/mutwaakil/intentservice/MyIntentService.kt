@@ -15,6 +15,8 @@ class MyIntentService : IntentService("MyIntentService") {
         instance = this
     }
 
+
+    //companion 
     companion object {
         private lateinit var instance: MyIntentService
         var isRunning = false
